@@ -129,7 +129,8 @@ export const PROPERTIES: Property[] = [
     images: [
       'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80'
     ],
     description: 'Clean lines, warm teak wood accents, and expansive double-height ceilings define this newly completed 4-bedroom semi-detached residence. Situated in a secured, flood-free residential estate off Admiralty Way, Lekki Phase 1. Features a private plunge pool, skylight atrium, island kitchen with Bosch appliances, and a private rooftop lounge designed for entertaining.',
     features: [
@@ -170,7 +171,8 @@ export const PROPERTIES: Property[] = [
     images: [
       'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80'
     ],
     description: 'Immaculately maintained 3-bedroom luxury apartment located in one of Old Ikoyi’s most desirable tree-lined residential sanctuaries. Ideal for expatriates, diplomats, and corporate executives. Fully serviced with round-the-clock power, uniform guards, swimming pool, equipped gym, and covered parking.',
     features: [
@@ -209,7 +211,9 @@ export const PROPERTIES: Property[] = [
     mainImage: 'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1200&q=80',
     images: [
       'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80'
     ],
     description: 'A rare find on Lagos Mainland’s most prestigious boulevard. This sprawling 5-bedroom detached mansion sits on 1,200 square meters of prime dry land in Ikeja GRA. Features manicured landscaped gardens, private swimming pool, outdoor gazebo bar, electric perimeter fence, private cinema room, and generous 3-room service quarters.',
     features: [
@@ -248,7 +252,9 @@ export const PROPERTIES: Property[] = [
     mainImage: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80',
     images: [
       'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1502672017486-42db20063229?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1502672017486-42db20063229?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80'
     ],
     description: 'Styled specifically for diaspora visitors, business executives, and staycations in Lagos. Fully furnished with high-end designer pieces, Smart TVs with Netflix & DSTV Premium, superfast Fibre Internet, automated espresso machine, and private balcony overlooking the Five Cowries Creek.',
     features: [
@@ -286,7 +292,9 @@ export const PROPERTIES: Property[] = [
     mainImage: 'https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1200&q=80',
     images: [
       'https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80'
     ],
     description: 'Prime off-plan residential development located on Orchid Road. High capital appreciation projected at 35% upon completion in Q4 2026. Features contemporary exterior cladding, smart door lock, fitted kitchen, stamped concrete driveways, and central drainage system.',
     features: [
@@ -323,7 +331,9 @@ export const PROPERTIES: Property[] = [
     mainImage: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80',
     images: [
       'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80'
     ],
     description: 'Open-plan Grade A commercial space ideal for corporate headquarters, tech hubs, private equity firms, or law practices in Oniru/Victoria Island. Features floor-to-ceiling double-glazed heat-reflective glass, dedicated transformer, fiber optic backbone, and ample parking.',
     features: [

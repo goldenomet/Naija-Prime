@@ -13,7 +13,6 @@ import { NeighborhoodGuide } from './components/NeighborhoodGuide';
 import { MortgageCalculatorModal } from './components/MortgageCalculatorModal';
 import { InspectionModal } from './components/InspectionModal';
 import { FavoritesDrawer } from './components/FavoritesDrawer';
-import { CustomCursor } from './components/CustomCursor';
 import { AiChatbot } from './components/AiChatbot';
 import { Footer } from './components/Footer';
 import { Building2, Sparkles, PhoneCall, ShieldCheck } from 'lucide-react';
@@ -429,9 +428,6 @@ export default function App() {
           />
         )}
       </AnimatePresence>
-
-      {/* Brand Logo Custom Pointer Cursor */}
-      <CustomCursor />
 
       {/* AI Luxury Real Estate Chatbot */}
       <AiChatbot onOpenInspectionModal={() => setIsInspectionOpen(true)} />

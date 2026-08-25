@@ -6,12 +6,7 @@
   }
 }
 
-/* Hide default cursor on desktop when custom logo cursor is active */
-@media (pointer: fine) {
-  body, button, a, input, select, textarea, [role="button"], .cursor-pointer {
-    cursor: none !important;
-  }
-}
+/* Restore standard cursor */
 
 /* Custom smooth scrollbar */
 ::-webkit-scrollbar {
