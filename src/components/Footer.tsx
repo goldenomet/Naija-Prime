@@ -77,7 +77,7 @@ export const Footer: React.FC = () => {
             <div className="flex items-center gap-3">
               <motion.div 
                 whileHover={{ rotate: 15 }}
-                className="flex items-center justify-center text-red-600 p-2 bg-white border border-[#0A0A0A]"
+                className="flex items-center justify-center text-red-600 p-0 bg-transparent border-none"
               >
                 <Landmark className="w-7 h-7" />
               </motion.div>

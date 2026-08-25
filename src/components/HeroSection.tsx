@@ -107,15 +107,15 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         }}
       />
 
-      {/* Background Image with Ambient Overlay */}
-      <div className="gsap-hero-bg absolute inset-0 z-0 pointer-events-none">
+      {/* Background Image with Ambient Overlay (Positioned below top content div with faded sky) */}
+      <div className="gsap-hero-bg absolute top-1/2 sm:top-[48%] inset-x-0 bottom-0 z-0 pointer-events-none">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ikoyi_and_Beyond.jpg/1280px-Ikoyi_and_Beyond.jpg"
           alt="Lagos Luxury Estate"
           referrerPolicy="no-referrer"
-          className="w-full h-full object-cover object-center opacity-30"
+          className="w-full h-full object-cover object-center opacity-40 [mask-image:linear-gradient(to_bottom,rgba(0,0,0,0.3)_0%,rgba(0,0,0,1)_45%)]"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#FFD600] via-[#FFD600]/80 to-[#FFD600]/50" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#FFD600] via-[#FFD600]/60 to-[#FFD600]/40" />
       </div>
 
       {/* Minimalist Adire-inspired Pattern Overlay */}

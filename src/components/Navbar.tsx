@@ -73,7 +73,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <motion.div 
               whileHover={{ rotate: 12, scale: 1.15 }}
               transition={{ type: 'spring', stiffness: 400, damping: 17 }}
-              className="flex items-center justify-center text-red-600 p-2 bg-white/60 border border-[#0A0A0A] rounded-none shadow-none"
+              className="flex items-center justify-center text-red-600 p-0 bg-transparent border-none shadow-none"
             >
               <Landmark className="w-6 h-6 sm:w-7 sm:h-7" />
             </motion.div>
@@ -154,31 +154,17 @@ export const Navbar: React.FC<NavbarProps> = ({
               className="relative flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 bg-white text-gray-800 hover:text-[#0A0A0A] border border-[#0A0A0A]"
               title="Saved Favorites"
             >
-              <Heart className="w-4 h-4" />
+              <Heart className={`w-4 h-4 ${favoritesCount > 0 ? 'fill-red-600 text-red-600' : ''}`} />
               {favoritesCount > 0 && (
                 <motion.span 
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
-                  className="absolute -top-1.5 -right-1.5 bg-[#0A0A0A] text-[#FFD600] font-bold text-[10px] w-5 h-5 flex items-center justify-center border border-[#141414]"
+                  className="absolute -top-1.5 -right-1.5 bg-red-600 text-white font-bold text-[10px] w-5 h-5 flex items-center justify-center border border-[#141414]"
                 >
                   {favoritesCount}
                 </motion.span>
               )}
             </motion.button>
-
-            {/* WhatsApp Direct Chat */}
-            <motion.a
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hidden md:flex items-center gap-1.5 px-3.5 py-2 bg-white text-[#0A0A0A] border border-[#0A0A0A] text-xs font-bold uppercase tracking-wider"
-              title="Instant WhatsApp Inquiry"
-            >
-              <MessageSquare className="w-4 h-4 text-emerald-600 fill-emerald-600" />
-              <span>Chat</span>
-            </motion.a>
 
             {/* Book Inspection CTA */}
             <motion.button

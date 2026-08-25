@@ -82,12 +82,12 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
             }}
             className={`pointer-events-auto p-2 rounded-none transition-all backdrop-blur-md ${
               isFavorite
-                ? 'bg-[#0A0A0A] text-[#FFD600] shadow-none'
+                ? 'bg-white/90 text-red-600 border border-[#0A0A0A]/50 shadow-sm'
                 : 'bg-white/80 hover:bg-white text-gray-700 border border-[#0A0A0A]/50'
             }`}
             title="Save to Favorites"
           >
-            <Heart className={`w-4 h-4 ${isFavorite ? 'fill-[#0A0A0A] text-[#0A0A0A]' : ''}`} />
+            <Heart className={`w-4 h-4 ${isFavorite ? 'fill-red-600 text-red-600' : ''}`} />
           </button>
         </div>
 
